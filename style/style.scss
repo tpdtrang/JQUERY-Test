@@ -1,0 +1,22 @@
+.p-list {
+  text-align: center;
+  width: 800px;
+  margin: 0 auto;
+  .add-item {
+    margin-bottom: 20px;
+    input {
+      width: calc(100% - 150px);
+      padding: 5px 18px;
+    }
+    button {
+      padding: 5px 18px;
+    }
+  }
+  .done {
+    text-decoration: line-through;
+  }
+  li{
+    display: flex;
+    justify-content: space-between;
+  }
+}

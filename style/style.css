@@ -1,0 +1,32 @@
+.p-list {
+  text-align: center;
+  width: 800px;
+  margin: 0 auto;
+}
+
+.p-list .add-item {
+  margin-bottom: 20px;
+}
+
+.p-list .add-item input {
+  width: calc(100% - 150px);
+  padding: 5px 18px;
+}
+
+.p-list .add-item button {
+  padding: 5px 18px;
+}
+
+.p-list .done {
+  text-decoration: line-through;
+}
+
+.p-list li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+/*# sourceMappingURL=style.css.map */
